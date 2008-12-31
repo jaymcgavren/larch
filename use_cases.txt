@@ -1,0 +1,345 @@
+Features and selected applicable use cases:
+Write object.
+	-Publish journal entry to LiveJournal and e-mail.
+Read object.
+	-Publish journal entry to LiveJournal and e-mail.
+Link objects to other objects.
+	-Publish journal entry to LiveJournal and e-mail.
+Link objects to collections.
+	-Publish journal entry to LiveJournal and e-mail.
+Convert to appropriate format.
+	-Publish journal entry to LiveJournal and e-mail.
+Publish updates to subscribers.
+	-Publish journal entry to LiveJournal and e-mail.
+Require key for any arbitrary method.
+	-Prevent deletion of locked resources.
+	-Publish journal entry to friends only.
+	-Pay-per-use media converters.
+Hooks for any arbitrary method.
+	-Cache generated representations of resources (such as HTML page from a database) to conserve CPU.
+Global search?  Or allow any object to have specialized methods that take arguments?
+	-Search content of all old IM conversations.
+Hook for when item is added to a collection.
+	-Audible and/or visual alerts when new IM or e-mail arrives.
+	-Search content of all old IM conversations.
+	-Queue updates that must be transmitted over network before sending, so they can be combined into fewer packets.
+Versioning.
+	-Infinite undo levels when editing.
+Optional author attributes for all objects.
+	-In some cases, allow completely anonymous submission of text or images.
+Hook for exceptions.
+	-If program dies, e-mail error message to maintainer and generic operations account, then append error to file.
+Require key to list objects in a collection.
+	-Do not reveal existence of certain media to unauthorized users.
+Publish accesses to subscribers.
+	-Watch Windows registry and log key accesses/modifications.
+Publish updates to any member of a collection to subscribers.
+	-Watch Windows registry and log key accesses/modifications.
+	-Highlight items in a collection that have changed from their previous values.
+Hook for listing items (for purpose of ignoring those that match a pattern).
+	-Ignore certain items (similar to .cvsignore file for CVS).
+Hook for when you access an item within a collection.
+	-View the list of resources that your friends have been accessing.
+Hook for authorization failures, including data on operation they were trying to perform.
+	-If user tries to view content they haven't purchased yet, take them to a purchase page.
+Optionally link to specific revision when linking to a resource.
+	-Flag only one particular version of a resource, which need not be HEAD, as the "published" one.
+	-Approve or revert changes to a Web page by another person.
+Vary collection list behavior according to provided key.
+	-Create advertising-supported audio, video, or text feeds.  Filter ads for paid subscribers.
+All resources have read-only attribute.
+	-Confirm before deleting read-only resources.
+Read/write methods have published data type.
+	-Package workflows that use many subprocesses as a single unit.  For example, shell scripts today will pipe data through a series of programs that may or may not exist on non-Unix platforms, and are therefore not distributable.
+Schema for expected linked attributes and acceptable values.
+	-Automatically choose Japanese stereo soundtrack and English subtitles if available.
+
+
+
+
+-Text:
+	-Cycle through signatures in e-mail, Web boards.
+	-Load subroutine template to Clipboard.
+	-Publish journal entry to LiveJournal and e-mail.
+	-Publish journal entry to friends only.
+	-Publish journal entry to self only.
+	-Mark quotations in Alice in Wonderland.
+	-Publish news article to world via MoMaMag, Jpop.com message board.
+	-Receive notification by e-mail of replies to message board topic.
+	-Set John up to receive publications by e-mail only.
+	-Add XML contained in e-mails to database.
+	-Publish headlines to LED marquee.
+	-Extract POD from Perl scripts and save as HTML.
+	-Add item to to-do list.
+	-Set up reminder for one week before Mom's birthday, recurring forever.
+	-Set up reminder to log out of DOT for 4:55 PM every weekday, recurring forever.
+	-Search content of all old IM conversations.
+	-Audible and/or visual alerts when new IM or e-mail arrives.
+	-Infinite undo levels when editing.
+	-Maintain grocery list.
+	-Send text message to cell phone.
+	-Gather postings from newsgroup, IRC channel, and Web board that are on the same topic.
+	-Filter all posts from a given troll.
+	-Publish RSS feed with new articles.
+	-Display all work notes regarding given project.
+	-Delete dead Web links.
+	-Embed paragraph or section from another document in the current document, and auto-update when other document is changed.
+	-Publish e-mails as RSS feed.
+	-Track number of times a post is viewed.
+	-Allow Slashdot-style comments on a post.
+	-Allow retrieval of e-mail or news articles by dial-in phone menu.
+	-List highest-priority e-mails first.
+	-Run/archive a mailing list.
+	-Simultaneous full-text search of files and e-mail.
+	-Have text files/Web pages read aloud.
+	-Add comments/track changes to documents/source code.
+	-Store each new item copied to clipboard, and allow moving back to old items/forward to new ones.
+	-Receive notification in system tray when a new item appears in a collection (such as an e-mail in an inbox).
+	-Automatically translate text from one human language to another.
+	-Add a file to file collection, and have it automatically appear in all searches linked to file set.
+	-Have secret subsections included in document when accessed by authorized users, but omitted when accessed by public.
+	-Request a review of some code, and check code in when reviewer approves.
+        -Establish ad-hoc, single-use monitors to alert user when an e-mail from a particular address comes in.
+        -Reference attachments stored in e-mail without referring to containing e-mail.
+-Video:
+	-Mute audio when phone rings.
+	-Pause when phone rings.
+	-Rip clips.
+	-Play all Greenwood OVAs in order.
+	-Automatically choose Japanese stereo soundtrack and English subtitles if available.
+	-Find and download English subtitles.
+	-Play on bedroom TV.
+	-Find all movies which Edward Norton appears in.
+	-Find all movies directed by Kurosawa Akira, allowing search in Kanji or Romaji.
+	-Combine images, text into video in different styles: 1970s, pop art, etc.
+	-Create video accompaniment to song in real time with "video guitar".
+	-Toggle between current and most recent TV channel.
+	-Normalize volume when toggling between two TV channels.
+	-Associate video with an album or song.
+	-Remotely control G-Force-like display.
+	-Play latest episode of The Simpsons.
+	-Create a wishlist that automatically downloads movies with a certain actor, director, or topic.
+	-Tune into kids' bedroom TV to see what they're watching.
+	-Route TV show into living room or bedroom according to location.
+	-Change between tags in an aggregator program as you would change stations on a television.
+	-During videoconference, mute one or all microphones/blank one or all cameras.
+	-During videoconference, show PowerPoint slides instead of remote participants.
+	-Rewind TV schedule into the past to see programs that aired previously.
+	-Watch the same TV show as your friends.
+        -Watch two channels on split screen.
+-Applications:
+	-If program dies, e-mail error message to maintainer and generic operations account, then append error to file.
+	-If Microsoft Word dies, append error to file.
+	-Info to include with messages:
+	-Process ID.
+	-Process initiator. (Person, cron job, etc.)
+	-Date/time of message.
+	-Host PC of process?
+	-Message type (error, warning, FYI).
+	-Message string.
+	-Exclude process ID from messages e-mailed to generic operations account.
+	-Allow records to be submitted by e-mail for processing.
+	-Allow record submission by saving in "drop box" folder.
+	-Mount a remote FTP site as a drive.
+	-Get version of Perl script from a week ago.
+	-Secure server with port knocking, or any new security measure.
+	-Auto-generate .bat files to run new Perl scripts.
+	-List dependencies for any program or setting. (Ex: a database application and my system login.)
+	-All typed keys should appear onscreen within 50 milliseconds.
+	-All issued commands should be processed (or a status message should appear) within 250 milliseconds.
+	-Floating site-wide licenses - ex: only 20 users have write access to a database at one time.
+	-Rate Debian packages, automatically build distro with only 5-star packages (plus those marked with "system"/"essential" tags).
+	-Report inventory to Wal-Mart and other retailers.
+	-Schedule a meeting with people from multiple companies, sharing enough calendar data to determine when everyone is available.
+	-Prioritize some requests above others.
+	-Present requests to human beings for processing and response (with ability to accept or reject answer).
+	-Package workflows that use many subprocesses as a single unit. For example, shell scripts today will pipe data through a series of programs that may or may not exist on non-Unix platforms, and are therefore not distributable.
+	-Run central module repository for organization (a la Maven, Ruby Gems).
+	-Deploy an app successively to development, QA, and production.
+-Images:
+	-Browse unviewed images by Falcon.
+	-Show slideshow of photography by Jay McGavren.
+	-Find all 1024 x 768 images.
+	-Find all images with 4:3 aspect ratio.
+	-Add image list to wallpaper changer.
+	-Publish image list to Web.
+	-Crop image and resize to use as avatar.
+	-Rate image while viewing.
+	-Use image as wallpaper.
+	-Cycle through wallpaper list, one every 24 hours.
+	-Toggle between English and Japanese when viewing manga.
+	-Browse happy images.
+	-Browse designer (Photoshopped) wallpapers.
+	-Watermark images.
+	-Display artist/title with image.
+	-Cycle through avatar list.
+	-Delete current image.
+	-Automatically download all new images by Falcon.
+	-Automatically donate five cents to Penny Arcade for each image downloaded.
+	-Publish images to Blinkenlights Building.
+	-Slideshow images from networked PC on XBox.
+	-Auto-downsize images for Web viewing/dialup.
+	-Burn all photographs by Jay McGavren to CD.
+	-Store unmodified and color-enhanced versions of photographs.
+	-View images attached to an e-mail inline.
+	-Get list of images on a given topic from Google, and convert them to navigation icons for a Website.
+	-Access list of new files via RSS feed.
+	-Add a caption to a picture.
+	-Sort pictures by who is in them.
+	-Tag items as to whether or not they are "work safe".
+	-Find all photos taken within a certain latitude/longitude range.
+	-Find most popular photographs that are not tagged as 'vulgar'.
+	-Apply filters to a photograph in order. For example, contrast enhancements *must* take place before color enhancements.
+	-Distribute archive of free media while complying with varying license terms of components (CC:attribution/non-commercial, public domain, etc.).
+-Audio:
+	-Find songs by Orbital (artist).
+	-Find Dwr Budr (title).
+	-Find Mike and Rich songs by searching for Aphex Twin. (Aphex Twin is the "Rich" in "Mike and Rich".)
+	-Play music in background while playing Tetris.
+	-Play music in background while viewing slideshow.
+	-Play music in any app (iTunes, WMP, WinAmp).
+	-Play music in car.
+	-Make playlist by hand.
+	-Make playlist of 5-star Aphex Twin.
+	-Play only happy music.
+	-Play only sad jazz.
+	-Rate music while listening.
+	-Change genre while listening.
+	-Have changes reflected at work, home, and car.
+	-Rip samples.
+	-Rip CDDA to MP3.
+	-Play CD just by inserting.
+	-Change volume via dedicated keys.
+	-Play/stop/skip to next track without changing applications.
+	-Skip to next album.
+	-Announce artist and/or song title before each song.
+	-Delete current song (without issuing explicit Stop command first).
+	-Burn CDDA or MP3 CD from song list.
+	-Shuffle playlist.
+	-Run visualizer that responds to the music's beat.
+	-Loop the playlist.
+	-Automatically pay for and download all new Aphex Twin songs.
+	-Move frequently-played songs to bottom of playlist.
+	-Find and play hard-difficulty Dance Dance Revolution-style steps for current song.
+	-Find and play karaoke lyrics for current song.
+	-Recommend currently playing song to John.
+	-Recommend currently playing song to all friends.
+	-Recommend currently playing song to all friends that like Drum and Bass.
+	-Filter all recommendations for IDM songs that are sent to John.
+	-Mute audio when phone rings.
+	-Play music in shower.
+	-Auto-downsample music for use on portable player.
+	-Replay last minute of radio (a la Tivo) and rip sample.
+	-Play all music that I've discovered in the past month.
+	-From laptop, order jukebox to play particular artist.
+	-Automatically download song from P2P and play.
+	-Store/publish comment on currently playing song.
+	-Copy info for current song to Clipboard.
+	-Play all songs that are new in the past month.
+	-Burn all 4 and 5-star Alt. Rock to CD.
+	-Associate artwork with an album or song.
+	-Place a given song in multiple groupings ('for John', 'Eclectic', 'Crystalline', etc.)
+	-After playing a given song, always go to a certain other song by default.
+	-Run SQL queries against the music database.
+	-Distort microphone input and pipe to speaker in realtime.
+	-Simultaneously play audio through PC speakers and stream over network.
+	-Music tracking program that allows free low-quality version of loops to be downloaded and incorporated into unpublished song. At publication time, non-free high-quality loops can be purchased, licensed, downloaded, and incorporated into song, all within tracking program itself.
+	-Apply a certain equalizer whenever a certain song is playing.
+	-Batch edit tags of MP3 and SPC (SNES audio) files simultaneously.
+	-Submit bug report for an SPC (SNES audio) file that was ripped inaccurately.
+	-Route phone calls to office line or cell phone depending on location.
+	-Synchronize iPod to a playlist wirelessly.
+	-When music is following you from room to room via a presence system, and you pass through a room with someone who wants it quiet, refrain from playing music in that room.
+	-Select tracks that follow other tracks on an album, even if they are of a different genre.
+	-Plug a CD filled with text files into a car CD player and have its contents read aloud.
+	-Sort albums by 'sort name' rather than actual name (for sorting Japanese albums in English style).
+	-Record karaoke accompaniment to any song. Store new versions as your singing improves.
+	-Record number of times user has skipped a given track.
+-Games:
+	-Apply a certain control set whenever a certain game or type of game is playing.
+	-Automatically restore state when user resumes game.
+	-Send SNES ROM to XBox or SNES copier for play.
+	-Automatically download and use save states for a SNES game.
+	-When a ROM fails to load, automatically mark it as bad.
+	-Enter and leave a friend's game session at will.
+-Communications:
+	-Maintain multi-user voice mail system.
+	-Retrieve voice mail by phone.
+	-Add equivalent to XBox Live chat to anything: TV shows, Web sites, anything.
+	-Listen to multiple baby monitors through home stereo simultaneously.
+	-Place call on hold, and resume later.
+	-Transfer call to someone else's phone.
+	-Send all calls directly to voice mail.
+	-Conference in a third person on a call, then drop them again when needed.
+	-Undo dropping of party from conference call.
+	-Send all calls to another extension.
+	-Answer any phone within your assigned group/department.
+	-Redial last called party.
+-Miscellaneous:
+	-Do not reveal existence of certain media to unauthorized users.
+	-Reveal existence of certain media to unauthorized users, but deny access to it.
+	-Set music, slideshow, wallpaper, evening's movie to reflect given mood.
+	-Turn filtering of resources by mood on and off without reassigning links.
+	-Store deleted items in Trash until explicitly emptied.
+	-Restore items from Trash.
+	-Broadcast to everyone except my boss that I am unavailable during my lunch hour.
+	-Delete media via batch file.
+	-Must be able to use any encryption layer for any transfer.
+	-Maintain wish list, have PC watch for/bid on items on eBay.
+	-Limit funds an agent can bid with by giving it an "allowance".
+	-Maintain a 'wish list' of items, auto-update Amazon.com, Froogle, eBay wish lists.
+	-Use plugins to allow different object rating systems. (Example: Google rates items with 0-1 star, Apple with 0-5.)
+	-Use plugins to allow different encryption schemes.
+	-Maintain/share list of trusted/untrusted entities (hosts, users, etc.).
+	-Awareness of current 'context'. (Example: a NES ROM on the XBox would be in a different location than on the PC.
+	-Apply certain sets of settings whenever a certain user is logged in.
+	-Back up and clean out overfilled database.
+	-Watch Windows registry and log key accesses/modifications.
+	-Delete all files marked for deletion by a certain date. (To deal with limited hard drive space, or a data retention policy.)
+	-Treat a copy of a file on CD-ROM the same as the copy of the file on the hard drive.
+	-Allow all potential meeting attendees to see who else has accepted an invite.
+	-Request items over a peer-to-peer network.
+	-"Previous Version"/"Next Version" items integrated into Explorer shell menu for files/folders.
+	-Automatically decompress contents of archives, and catalog their files.
+	-Use different alerts based on the attributes of incoming items (like a special ringtone for family on a cell phone).
+	-Ignore certain items (similar to .cvsignore file for CVS).
+	-Thousands of clients should not hit one Web site at the same time, even if they all get a recommendation at once (i.e. the "Slashdot effect").
+	-New versions of a resource can be a completely different type. For example, split a podcast into 10 segments - the new resource is no longer an MP3 but a reference to 10 smaller MP3 files.
+	-Add notes that will only be visible to you to a meeting on calendar.
+	-Automatically update a resource when a newer revision is released.
+	-Format a hard drive.
+	-Partition a hard drive.
+	-View the list of resources that your friends have been accessing.
+	-Temporarily grant access to a resource, then automatically revoke it after a certain period.
+	-Receive reviews for a business while walking through the front door of that business.
+	-Turn off sending of alerts during certain days/times.
+	-Storage space manager: When disk space is needed, delete old versions of objects, possibly deleting current versions as well.
+	-Install Audioscrobbler-style plugin for music player.
+	-Track versions of some or all files in CVS or Subversion.
+	-Note fact that remote FTP site failed to receive updated photo, and automatically re-send at a later time.
+	-Restore data after hard disk crash.
+	-Resume copy of file tree following network/permissions failure.
+	-Search content of all files on hard drive, simultaneously with Web-based e-mail.
+	-Automatically create/update passwords for site accounts, without user ever needing to know password.
+	-Deleting item automatically deletes it from all servers/applications it's been copied to.
+	-All facilities should be available to blind/deaf users.
+	-In some cases, allow completely anonymous submission of text or images.
+	-If user tries to view content they haven't purchased yet, take them to a purchase page.
+	-If unauthenticated user tries to view restricted content, take them to a login/sign-up page.
+	-Present different views for same object based on object's attributes.
+	-Flag only one particular version of a resource, which need not be HEAD, as the "published" one.
+	-Create advertising-supported audio, video, or text feeds. Filter ads for paid subscribers.
+	-Provide your current location, and track it over time.
+	-Display a feed as ad-supported for unregistered users, and ad-free for paid users.
+	-Return "photographer" attribute in response to queries for "artist" (semantic markup).
+	-Confirm before deleting read-only resources.
+	-Prevent deletion of locked resources.
+	-Cache generated representations of resources (such as HTML page from a database) to conserve CPU.
+	-Pay-per-use media converters.
+	-Approve or revert changes to a Web page by another person.
+	-Use existing permissions (user list), but allow read only if connection is secure.
+	-Hotel needs to provide newspaper only to guests that are members of a certain club; append instructions to notes field displayed to front desk clerk.
+	-Queue updates that must be transmitted over network before sending, so they can be combined into fewer packets.
+	-Highlight items in a collection that have changed from their previous values.
+	-Refrain from publishing an entire project if there are insufficient permissions on any of its resources (music or images have a closed and unpurchased license).
+	-Vary detail of error messages according to permissions of viewer.
