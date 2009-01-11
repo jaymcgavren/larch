@@ -53,6 +53,8 @@ Read/write methods have published data type.
 	-Package workflows that use many subprocesses as a single unit.  For example, shell scripts today will pipe data through a series of programs that may or may not exist on non-Unix platforms, and are therefore not distributable.
 Schema for expected linked attributes and acceptable values.
 	-Automatically choose Japanese stereo soundtrack and English subtitles if available.
+Method returns have timeout.
+	-Submit an item for manual completion by a human being, a la Amazon Mechanical Turk.
 
 
 

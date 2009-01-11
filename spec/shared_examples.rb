@@ -1,9 +1,18 @@
 require File.join(File.dirname(__FILE__), 'spec_helper.rb')
 
 
+shared_examples_for "all" do
+  it "fails if method timeout exceeded"
+  it "allows setting an exception handler"
+  it "offers before and after hooks for arbitrary methods"
+end
+
+
 shared_examples_for "readable" do
   it {@it.should respond_to(:read)}
   it "has a published data type"
+  it "can be set up to track access count"
+  it "can be set up to track access credentials"
 end
 
 
@@ -24,6 +33,8 @@ end
 shared_examples_for "securable" do
   it {@it.should respond_to(:secure)}
   it "allows requiring a key for any method"
+  it "allows setting an authorization failure handler on the server side, that client isn't aware of"
+  it "can give information on operation user was trying to perform when authorization failed"
 end
 
 
@@ -40,20 +51,22 @@ shared_examples_for "observable" do
 end
 
 
+shared_examples_for "enumerable" do
+  it "allows method hooks for item retrieval"
+  it "allows method hooks for item adding"
+  it "allows retrieving only items that match a pattern"
+  it "can be set up to return certain objects only with an appropriate key"
+  it "does not indicate there is a next element if the given key does not allow discovery of final element"
+end
+
+
 
 
 
 # Convert to appropriate format.
-# Hooks for any arbitrary method.
 # Global search?  Or allow any object to have specialized methods that take arguments?
-# Hook for when item is added to a collection.
 # Optional author attributes for all objects.
-# Hook for exceptions.
 # Require key to list objects in a collection.
-# Publish accesses to subscribers.
 # Publish updates to any member of a collection to subscribers.
-# Hook for listing items (for purpose of ignoring those that match a pattern).
-# Hook for when you access an item within a collection.
-# Hook for authorization failures, including data on operation they were trying to perform.
 # Optionally link to specific revision when linking to a resource.
 # Schema for expected linked attributes and acceptable values.

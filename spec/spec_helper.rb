@@ -1,3 +1,5 @@
+$: << (File.dirname(__FILE__) + '/../lib')
+
 gems_loaded = false
 begin
 	require 'spec'
